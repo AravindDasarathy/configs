@@ -1,0 +1,26 @@
+{
+  "window.zoomLevel": 0,
+  "explorer.confirmDelete": false,
+  "editor.insertSpaces": true,
+
+  "editor.tabSize": 2,
+  "editor.fontSize": 15,
+  "editor.fontFamily": "ProFont for Powerline",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "500",
+  "terminal.integrated.fontSize": 15,
+
+  "workbench.colorTheme": "An Old Hope Italic",
+
+  "editor.renderWhitespace": "all",
+  "editor.overviewRulerBorder": false,
+  "editor.renderIndentGuides": false,
+  "workbench.editor.highlightModifiedTabs": true,
+  "editor.detectIndentation": false,
+  "powermode.comboThreshold": 2,
+  "powermode.shakeIntensity": 2,
+  "editor.cursorStyle": "block-outline",
+  "editor.cursorBlinking": "phase",
+  "powermode.presets": "flames",
+  "editor.minimap.enabled": false
+}
