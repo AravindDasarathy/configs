@@ -1,26 +1,42 @@
 {
-  "window.zoomLevel": 0,
+  "window.zoomLevel": -1,
   "explorer.confirmDelete": false,
   "editor.insertSpaces": true,
-
+  "explorer.compactFolders": true,
+//fonts
   "editor.tabSize": 2,
   "editor.fontSize": 15,
-  "editor.fontFamily": "ProFont for Powerline",
+  "editor.fontFamily": "",
   "editor.fontLigatures": true,
   "editor.fontWeight": "500",
   "terminal.integrated.fontSize": 15,
-
-  "workbench.colorTheme": "An Old Hope Italic",
-
+//editor and cursor
   "editor.renderWhitespace": "all",
   "editor.overviewRulerBorder": false,
   "editor.renderIndentGuides": false,
-  "workbench.editor.highlightModifiedTabs": true,
+  "editor.rulers": [100],
   "editor.detectIndentation": false,
+  "editor.cursorStyle": "block",
+  "editor.cursorBlinking": "phase",
+  "editor.minimap.enabled": false,
+  "editor.selectionHighlight": true,
+  "editor.semanticHighlighting.enabled": true,
+//fun
   "powermode.comboThreshold": 2,
   "powermode.shakeIntensity": 2,
-  "editor.cursorStyle": "block-outline",
-  "editor.cursorBlinking": "phase",
-  "powermode.presets": "flames",
-  "editor.minimap.enabled": false
+//workbench
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.colorCustomizations": {
+    "editorRuler.foreground": "#8cff76",
+    "editorWhitespace.foreground": "#f76f6f"
+    // "editor.foldBackground": "#353F00"
+  },
+  "workbench.colorTheme": "monokai-chacoral (white)",
+//javascript
+"javascript.format.semicolons": "insert",
+"terminal.integrated.rendererType": "dom",
+"files.insertFinalNewline": true,
+"files.trimTrailingWhitespace": true,
+"powermode.presets": "fireworks",
 }
+
