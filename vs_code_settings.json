@@ -1,42 +1,54 @@
 {
-  "window.zoomLevel": -1,
   "explorer.confirmDelete": false,
   "editor.insertSpaces": true,
   "explorer.compactFolders": true,
-//fonts
+  //editor fonts
   "editor.tabSize": 2,
-  "editor.fontSize": 15,
-  "editor.fontFamily": "",
+  "editor.fontSize": 13,
+  "editor.fontFamily": "Source Code Pro",
+  // "editor.fontFamily": "Gaegu-Regular, monospace",
   "editor.fontLigatures": true,
   "editor.fontWeight": "500",
-  "terminal.integrated.fontSize": 15,
-//editor and cursor
+  "editor.formatOnSave": false,
+  "prettier.singleQuote": true,
+  // terminal fonts
+  "terminal.integrated.fontFamily": "Source Code Pro",
+  "terminal.integrated.fontSize": 13,
+  //editor and cursor
   "editor.renderWhitespace": "all",
   "editor.overviewRulerBorder": false,
   "editor.renderIndentGuides": false,
-  "editor.rulers": [100],
+  "editor.rulers": [
+    100
+  ],
   "editor.detectIndentation": false,
   "editor.cursorStyle": "block",
   "editor.cursorBlinking": "phase",
   "editor.minimap.enabled": false,
   "editor.selectionHighlight": true,
   "editor.semanticHighlighting.enabled": true,
-//fun
+  //fun
   "powermode.comboThreshold": 2,
   "powermode.shakeIntensity": 2,
-//workbench
+  //workbench
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.colorCustomizations": {
     "editorRuler.foreground": "#8cff76",
     "editorWhitespace.foreground": "#f76f6f"
     // "editor.foldBackground": "#353F00"
   },
-  "workbench.colorTheme": "monokai-chacoral (white)",
-//javascript
-"javascript.format.semicolons": "insert",
-"terminal.integrated.rendererType": "dom",
-"files.insertFinalNewline": true,
-"files.trimTrailingWhitespace": true,
-"powermode.presets": "fireworks",
+  "workbench.editor.decorations.colors": true,
+  "workbench.editor.decorations.badges": true,
+  "workbench.colorTheme": "Panda Syntax",
+  "workbench.panel.defaultLocation": "bottom",
+  //javascript
+  "javascript.format.semicolons": "insert",
+  "terminal.integrated.rendererType": "dom",
+  "files.insertFinalNewline": false,
+  "files.trimTrailingWhitespace": true,
+  "powermode.presets": "fireworks",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
-
