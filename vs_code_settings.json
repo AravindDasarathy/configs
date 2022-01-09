@@ -12,7 +12,7 @@
   "editor.formatOnSave": false,
   "prettier.singleQuote": true,
   // terminal fonts
-  "terminal.integrated.fontFamily": "Source Code Pro",
+  "terminal.integrated.fontFamily": "Source Code Pro, monospace",
   "terminal.integrated.fontSize": 13,
   //editor and cursor
   "editor.renderWhitespace": "all",
@@ -39,7 +39,7 @@
   },
   "workbench.editor.decorations.colors": true,
   "workbench.editor.decorations.badges": true,
-  "workbench.colorTheme": "Panda Syntax",
+  "workbench.colorTheme": "Verdandi Alter",
   "workbench.panel.defaultLocation": "bottom",
   //javascript
   "javascript.format.semicolons": "insert",
@@ -50,5 +50,12 @@
   "diffEditor.ignoreTrimWhitespace": false,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "terminal.integrated.gpuAcceleration": "off",
+  "json.schemas": [],
+  "workbench.iconTheme": "vscode-great-icons",
+
+  // "vscode_vibrancy.type": "dark",
+  // "vscode_vibrancy.opacity": 0,
+  // "vscode_vibrancy.theme": "Default Dark"
 }
